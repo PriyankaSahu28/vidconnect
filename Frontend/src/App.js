@@ -16,7 +16,7 @@ import io from "socket.io-client"
 import "./App.css"
 
 
-const socket = io.connect('http://localhost:5000')
+const socket = io.connect('http://16.171.181.156:5000')
 function App() {
 	console.log("Priyanka");
 
